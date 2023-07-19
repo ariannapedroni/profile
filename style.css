@@ -1,0 +1,41 @@
+body {
+  font-size: 16px;
+  color:rgb(80, 80, 80);
+  font-family: Montserrat, sans-serif;
+  background-image: linear-gradient(to bottom right, #ff9eaa 0% 70%, #ff3aa0 95% 100%);
+  background-position: center;
+  background-attachment: fixed;
+  margin: auto;
+  display: grid;
+  width: 70%;
+}
+
+.card {
+  margin: 10px 50px;
+  padding: 20px 0;
+  place-items: center;
+  background-color: #fde6e8;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 5px 5px 10px #474747;
+  align-content: center;
+}
+
+#profilephoto {
+  border-radius: 10%;
+}
+
+a:visited {
+  color: #474747;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff3aa0;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
